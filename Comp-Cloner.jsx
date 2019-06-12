@@ -11,9 +11,6 @@ for (var i = 1; i <= app.project.numItems; i++) {
     }
 }
 
-alert(data)
-alert(prototypeComp)
-
 if (prototypeComp && data) {
     for (var i = 0; i < data.length; i++) {
         var dataObj = data[i]
@@ -30,7 +27,6 @@ function loadJSON(){
     if(jsonFile != false){
         jsonFile.open('r');
         content = jsonFile.read();
-alert(content)
         try {
             var json = JSON.parse(content);
         } catch(e) {
