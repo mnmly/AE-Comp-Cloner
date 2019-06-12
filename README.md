@@ -4,7 +4,15 @@ Duplicate `Prototype` comp, and fill out the text layer based on the JSON data e
 
 ![Screenshot](screenshot.png)
 
-`json
+
+### Usage
+
+- Select `Comp-Cloner.jsx` from `File` → `Script` → `Run Script File…`
+- Then select JSON file when prompt pops up.
+
+### Sample JSON
+
+```json
 [
 	{
 		"Course": "Course Name A",
@@ -17,8 +25,4 @@ Duplicate `Prototype` comp, and fill out the text layer based on the JSON data e
 		"Project Title": "Project Title Y"
 	}
 ]
-`
-
-### Usage
-
-- Select `Comp-Cloner.jsx` from `File` → `Script` → `Run Script File…`
+```
