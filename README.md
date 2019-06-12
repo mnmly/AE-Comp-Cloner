@@ -4,6 +4,7 @@ Duplicate `Prototype` comp, and fill out the text layer based on the JSON data e
 
 ![Screenshot](screenshot.png)
 
+![](output-a.gif) ![](output-b.gif)
 
 ### Usage
 
@@ -15,11 +16,13 @@ Duplicate `Prototype` comp, and fill out the text layer based on the JSON data e
 ```json
 [
 	{
+		"ID": "001",
 		"Course": "Course Name A",
 		"Student Name": "student name 1",
 		"Project Title": "Project Title X"
 	},
 	{
+		"ID": "002",
 		"Course": "Course Name B",
 		"Student Name": "student name 2",
 		"Project Title": "Project Title Y"
